@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Forms</h1>
+    <form>
+        <div>
+            <label for="text">Text</label>
+            <input type="text" id="text" value="Default text" readonly>
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter emal">
+        </div>
+
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="password">
+        </div>
+
+        <div>
+            <label for="number">Number</label>
+            <input type="number" id="number" min="0" max="10">
+        </div>
+
+        <div>
+            <label for="range">Range</label>
+            <input type="range" id="range" min="0" max="10" step="2">
+        </div>
+
+        <div>
+            <label for="date">Date</label>
+            <input type="date" id="date">
+        </div>
+
+        <div>
+            <label for="color">Color</label>
+            <input type="color" id="color">
+        </div>
+
+        <div>
+            <label for="massage">Massage</label>
+            <br>
+            <textarea name="massage" id="massage" cols="25" rows="5"></textarea>
+        </div>
+
+        <div>
+            <label for="sex">Sex</label>
+            <select id="sex">
+                <option value="male" selected>Male</option>
+                <option value="female">Female</option>
+            </select>
+        </div>
+
+        <div>
+            <label>Work summary</label>
+            <input type="radio" name="work"> 1
+            <input type="radio" name="work"> 2
+            <input type="radio" name="work"> 3
+            <input type="radio" name="work"> 4
+            <input type="radio" name="work"> 5
+        </div>
+
+        <div>
+            <label>Favorite food</label>
+            <input type="checkbox" name="food"> Bread
+            <input type="checkbox" name="food"> Fruit
+            <input type="checkbox" name="food"> Vegetables
+            <input type="checkbox" name="food"> Cucumber
+            <input type="checkbox" name="food"> Berry
+        </div>
+
+        <input type="submit" value="Send some form">
+
+        <button type="submit">Send form</button>
+    </form>
+</body>
+
+</html>
